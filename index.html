@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Simple Calculator Using Js</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body onload="boot()">
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <div class="calc-body">
+      <div class="calc-screen">
+        <div id="calc-operation" class="calc-operation"></div>
+        <div class="calc-typed"><span id="calc-typed"></span><span class="blink-me">_</span></div>
+      </div>
+      <div class="calc-button-row">
+        <div class="button l second-operator">sin</div>
+        <div class="button l second-operator">cos</div>
+        <div class="button l second-operator">sqrt</div>
+        <div class="button l first-operator">/</div>
+      </div>
+      <div class="calc-button-row">
+        <div class="button num">7</div>
+        <div class="button num">8</div>
+        <div class="button num">9</div>
+        <div class="button l first-operator">x</div>
+      </div>
+      <div class="calc-button-row">
+        <div class="button num">4</div>
+        <div class="button num">5</div>
+        <div class="button num">6</div>
+        <div class="button l first-operator">-</div>
+      </div>
+      <div class="calc-button-row">
+        <div class="button num">1</div>
+        <div class="button num">2</div>
+        <div class="button num">3</div>
+        <div class="button l first-operator">+</div>
+      </div>
+      <div class="calc-button-row">
+        <div id="clean" class="button c">del</div>
+        <div class="button num">0</div>
+        <div id="backspace" class="button">&lt-</div>
+        <div id="equal" class="button l">=</div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="copyright">
+    &copy;2022 js by
+    <a href="https://github.com/maxjn"> Maxjn [Muhammad Haghnegahdar]
+
+    </a>
+  </footer>
+  <!-- partial -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
